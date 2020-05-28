@@ -1,0 +1,97 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "ccc iar cpp",
+    "tokenColors": [
+        {
+            "name": "JSON Key - Level 0",
+            "scope": "source.json meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#F78C6C"
+            }
+        },
+        {
+            "name": "JSON Key - Level 1",
+            "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#82c3ff"
+            }
+        },
+        {
+            "name": "JSON Key - Level 2",
+            "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "JSON Key - Level 3",
+            "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#FF5370"
+            }
+        },
+        {
+            "name": "JSON Key - Level 4",
+            "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#754036"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#98c379"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#ffcb6b"
+            }
+        }
+    ],
+    "colors": {
+        "editor.background": "#282f34", //编辑器:背景
+        "editorLineNumber.foreground": "#495162", //行号
+        "editor.lineHighlightBackground": "#383E4A", //光标所在行高亮
+        "editor.selectionBackground": "#3E4451", //所选内容
+        "editorCursor.foreground": "#f8f8f0", //光标
+        "editor.findMatchHighlightBackground": "#314365",
+        "editorHoverWidget.background": "#21252B", //悬停提示:背景
+        "editorHoverWidget.border": "#ffdd44", //悬停提示:边框
+        "activityBar.background": "#26282e", //最左侧活动栏
+        "sideBar.background": "#272c33", //侧边栏
+        "sideBarSectionHeader.background": "#272c33",
+        "diffEditor.insertedTextBackground": "#00809B33",
+        "dropdown.border": "#3ecf87", //下拉列表边框
+        //"editorGroup.border": "#cf9c5a",
+        //"editorGroupHeader.tabsBackground": "#2b2e33",
+        "editorIndentGuide.background": "#3B4048",
+        //"editorWhitespace.foreground": "#3B4048",
+        //"editorSuggestWidget.background": "#21252B",
+        //"editorSuggestWidget.border": "#181A1F",
+        //"editorSuggestWidget.selectedBackground": "#2c313a",
+        "editorWidget.background": "#979797", //编辑器组件(如查找/替换)背景
+        "input.background": "#33363d", //输入框背景
+        "list.activeSelectionBackground": "#2153b1",
+        "list.activeSelectionForeground": "#d7dae0",
+        "list.focusBackground": "#383E4A",
+        "list.hoverBackground": "#292d35",
+        "list.highlightForeground": "#C5C5C5",
+        "list.inactiveSelectionBackground": "#2c313a",
+        "list.inactiveSelectionForeground": "#d7dae0",
+        "tab.activeBackground": "#76797c", //活动选项卡:背景
+        "tab.border": "#666666",
+        "tab.inactiveBackground": "#1d2225",
+        "scrollbarSlider.background": "#4E566680", //滚动条滑块背景色
+        "scrollbarSlider.activeBackground": "#747D9180", //滚动条滑块在被点击时
+        "scrollbarSlider.hoverBackground": "#5A637580",
+        "statusBar.background": "#474f5a", //状态栏:背景
+        "statusBar.foreground": "#9da5b4", //状态栏:前景
+        "statusBarItem.hoverBackground": "#40557c", //状态栏:悬停时的背景
+        "statusBar.noFolderBackground": "#21252B",
+        "statusBar.debuggingBackground": "#21252B",
+    }
+}

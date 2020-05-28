@@ -1,0 +1,45 @@
+{
+    "name": "theme-ccc",
+    "displayName": "CCC",
+    "description": "è‡ªç”¨ä¸»é¢˜",
+    "version": "0.0.1",
+    "author": "JimmyChen <cjr163@gmail.com>",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "CCC IAR C++",
+                "uiTheme": "vs-dark",
+                "path": "./themes/iar-cpp.json"
+            },
+            {
+                "label": "CCC Nebula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nebula.json"
+            },
+            {
+                "label": "CCC test-syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/test-syntax.json"
+            }
+        ],
+        "iconThemes": [
+			{
+                "label": "CCC Smile Icons",
+                "id": "CC smile-icons",
+				"path": "./icons/icons.json"
+			}
+		]
+    },
+    "keywords": [
+        "IAR",
+        "C++",
+        "CPP",
+        "STM32"
+    ]
+}
